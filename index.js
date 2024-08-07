@@ -26,3 +26,23 @@ const friends = ["Adnan", "Angga", "Raka", "Ari", "Metha"];
 for (let i = 0; i < friends.length; i++) {
     console.log(friends[i]);
 }
+
+// Mendefinisikan class Mahasiswa
+class Mahasiswa {
+    // Constructor untuk menginisialisasi properti name dan department
+    constructor(name, department) {
+        this.name = name;
+        this.department = department;
+    }
+
+    // Method introduction untuk mencetak string perkenalan
+    introduction() {
+        console.log(`Halo, nama saya ${this.name} dan saya dari jurusan ${this.department}.`);
+    }
+}
+
+// Membuat objek dari class Mahasiswa
+const mahasiswa1 = new Mahasiswa("Ari Andika Leva Pratama", "Manajemen Informatika");
+
+// Memanggil method introduction
+mahasiswa1.introduction();
