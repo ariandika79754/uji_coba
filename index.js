@@ -1,6 +1,6 @@
 // Deklarasi variabel menggunakan let
 let name = "Ari Andika Leva Pratama";
-let age = 23;
+let age = 20;
 let university = "Politeknik Negeri Lampung";
 let citizen = "Indonesia";
 
