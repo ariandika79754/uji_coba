@@ -82,7 +82,7 @@ const perpustakaan = new Perpustakaan();
 perpustakaan.addBook("Matematika");
 perpustakaan.addBook("Bahasa Inggris");
 perpustakaan.addBook("Pemrograman JavaScript");
-perpustakaan.addBook("Bahasa");
+perpustakaan.addBook("Bahasa Indonesia");
 
 // Menampilkan daftar buku di perpustakaan
 perpustakaan.showBooks();
